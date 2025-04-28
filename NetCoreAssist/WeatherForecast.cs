@@ -8,6 +8,8 @@ namespace NetCoreAssist
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
+        public int TemperatureComplete => TemperatureC + TemperatureF;
+
         public string? Summary { get; set; }
     }
 }
