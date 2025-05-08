@@ -11,5 +11,8 @@ namespace NetCoreAssist
         public int TemperatureComplete => TemperatureC + TemperatureF;
 
         public string? Summary { get; set; }
+
+        public string? Stardate { get; set; }
+
     }
 }
